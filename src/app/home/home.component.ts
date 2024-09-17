@@ -18,7 +18,7 @@ export class HomeComponent implements OnInit, AfterViewInit {
 
   private initTyped() {
     const options = {
-      strings: ['Programmer', 'Full Stack Developer', 'UI Designer'],
+      strings: ['Programmer', 'Full Stack Developer', 'Graphics Designer'],
       typeSpeed: 100,
       backSpeed: 50,
       loop: true

@@ -6,6 +6,13 @@
   max-width: 1200px;
   margin: 0 auto;
 }
+.icon-image {
+  width: 20%; /* Adjust the width as needed */
+  height: 55%; /* Adjust the height as needed */
+  margin-bottom: 5%;
+  display: inline-block;
+  vertical-align: middle; /* Aligns the image with the text */
+}
 
 .skills .section-title {
   text-align: center;
