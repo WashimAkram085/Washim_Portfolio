@@ -16,6 +16,7 @@ import { ServiceWorkerModule } from '@angular/service-worker';
 import { ParticlesBackgroundComponent } from './particles-background/particles-background.component';
 import { ThreejsBackgroundComponent } from './threejs-background/threejs-background.component';
 import { StarBackgroundComponent } from './star-background/star-background.component';
+import { EducationComponent } from './education/education.component';
 
 @NgModule({
   declarations: [
@@ -30,6 +31,7 @@ import { StarBackgroundComponent } from './star-background/star-background.compo
     ParticlesBackgroundComponent,
     ThreejsBackgroundComponent,
     StarBackgroundComponent,
+    EducationComponent,
   ],
   imports: [
     BrowserModule,
