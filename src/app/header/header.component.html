@@ -3,36 +3,36 @@
     <a href="" class="logo">
       <img src="assets/images/logo.avif" alt="" height="60px" width="80px">
     </a>
-    <input class="menu-btn" type="checkbox" id="menu-btn" />
+    <input class="menu-btn" type="checkbox" id="menu-btn" #menuCheckbox />
     <label class="menu-icon" for="menu-btn">
       <span class="navicon"></span>
     </label>
     <nav class="menu">
-      <a class="nav-link" routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">
+      <a class="nav-link" routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" (click)="closeMenu(menuCheckbox)">
         <i class="fas fa-home"></i>
         <span>Home</span>
       </a>
-      <a class="nav-link" routerLink="/about" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">
+      <a class="nav-link" routerLink="/about" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" (click)="closeMenu(menuCheckbox)">
         <i class="fas fa-user"></i>
         <span>About</span>
       </a>
-      <a class="nav-link" routerLink="/education" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">
+      <a class="nav-link" routerLink="/education" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" (click)="closeMenu(menuCheckbox)">
         <i class="fas fa-education">📖</i>
         <span>Education</span>
       </a>
-      <a class="nav-link" routerLink="/projects" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">
+      <a class="nav-link" routerLink="/projects" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" (click)="closeMenu(menuCheckbox)">
         <i class="fas fa-project-diagram"></i>
         <span>Projects</span>
       </a>
-      <a class="nav-link" routerLink="/skills" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">
+      <a class="nav-link" routerLink="/skills" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" (click)="closeMenu(menuCheckbox)">
         <i class="fas fa-cogs"></i>
         <span>Skills</span>
       </a>
-      <a class="nav-link" routerLink="/resume" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">
+      <a class="nav-link" routerLink="/resume" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" (click)="closeMenu(menuCheckbox)">
         <i class="fas fa-file-alt"></i>
         <span>Resume</span>
       </a>
-      <a class="nav-link" routerLink="/contact" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">
+      <a class="nav-link" routerLink="/contact" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" (click)="closeMenu(menuCheckbox)">
         <i class="fas fa-envelope"></i>
         <span>Contact</span>
       </a>

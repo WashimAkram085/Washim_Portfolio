@@ -22,4 +22,7 @@ export class HeaderComponent {
   toggleNavbar() {
     this.isNavbarCollapsed = !this.isNavbarCollapsed;
   }
+  closeMenu(menuCheckbox: HTMLInputElement): void {
+    menuCheckbox.checked = false;
+  }
 }
