@@ -16,6 +16,13 @@ interface Project {
 export class ProjectsComponent implements OnInit {
   projects: Project[] = [
     {
+      title: 'S I Electricals : E Commerce App',
+      description: 'S I Electricals is a full-stack web application that allows users to browse, search, and purchase electricals product based on the category and place order on their convenient place. The application is built with Angular, Typescript,Springboot,Postman, PostgreSQL and features a responsive design, user authentication, and a shopping cart.',
+      image: '../../assets/project-image/SIElectricals.png',
+      link: 'https://github.com/WashimAkram085/S_I_Electricals_Frontend',
+      tags: ['Angular', 'Typescript', 'HTML/CSS', 'SpringBoot', 'Postman', 'PostGreSQL', 'Render', 'Vercel']
+    },
+    {
       title: 'Swirm Bookstore App',
       description: 'Swirm Bookstore is a full-stack web application that allows users to browse, search, and purchase books. The application is built with Angular, Typescript,Springboot,Postman and features a responsive design, user authentication, and a shopping cart.',
       image: '../../assets/project-image/swirm-bookstore.png',
